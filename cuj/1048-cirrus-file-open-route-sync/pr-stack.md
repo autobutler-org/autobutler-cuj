@@ -7,7 +7,9 @@ Use this file to track stacked PR order for this CUJ. Keep each spec as a separa
 
 ## Stack Order
 
-No specs planned yet. Add one row per spec after this CUJ is approved.
+| Order | Spec Slug            | Branch                            | PR            | Depends On           | Review Status | Merge Status | Deploy Order | Notes                                                          |
+| ----- | -------------------- | --------------------------------- | ------------- | -------------------- | ------------- | ------------ | ------------ | -------------------------------------------------------------- |
+| 1     | file-open-route-sync | feature/1048-file-open-route-sync | pending       | file-deep-link-entry | planned       | not-merged   | 1            | Synchronizes in-app file open with the direct deep-link route. |
 
 ## Rules
 

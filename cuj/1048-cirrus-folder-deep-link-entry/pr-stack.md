@@ -7,7 +7,9 @@ Use this file to track stacked PR order for this CUJ. Keep each spec as a separa
 
 ## Stack Order
 
-No specs planned yet. Add one row per spec after this CUJ is approved.
+| Order | Spec Slug           | Branch                             | PR            | Depends On                | Review Status | Merge Status | Deploy Order | Notes                                                |
+| ----- | ------------------- | ---------------------------------- | ------------- | ------------------------- | ------------- | ------------ | ------------ | ---------------------------------------------------- |
+| 1     | folder-deep-link-entry | feature/1048-folder-deep-link-entry | pending       | folder-navigation-history | planned       | not-merged   | 1            | Builds on the canonical folder route from CUJ-001. |
 
 ## Rules
 
