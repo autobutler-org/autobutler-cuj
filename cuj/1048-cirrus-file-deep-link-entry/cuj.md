@@ -2,10 +2,10 @@
 title: Open a Cirrus file directly from a deep link
 cuj_id: CUJ-003
 owner: product-platform
-status: draft
-approval_status: pending
-approved_by: pending
-approved_on: pending
+status: approved
+approval_status: approved
+approved_by: jamesaorson
+approved_on: 2026-04-30
 last_updated: 2026-04-30
 ---
 
@@ -71,7 +71,7 @@ journey
 
 # Approval
 
-- Approval Status: pending
-- Approved By: pending
-- Approved On: pending
+- Approval Status: approved
+- Approved By: jamesaorson
+- Approved On: 2026-04-30
 - Notes: Derived from autobutler-org/autobutler#1048.

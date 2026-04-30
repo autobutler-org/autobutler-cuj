@@ -2,10 +2,10 @@
 title: Open a Cirrus file from the browser and keep the URL in sync
 cuj_id: CUJ-004
 owner: product-platform
-status: draft
-approval_status: pending
-approved_by: pending
-approved_on: pending
+status: approved
+approval_status: approved
+approved_by: jamesaorson
+approved_on: 2026-04-30
 last_updated: 2026-04-30
 ---
 
@@ -71,7 +71,7 @@ journey
 
 # Approval
 
-- Approval Status: pending
-- Approved By: pending
-- Approved On: pending
+- Approval Status: approved
+- Approved By: jamesaorson
+- Approved On: 2026-04-30
 - Notes: Included because autobutler-org/autobutler#1048 calls for file-open URL sync for editor-supported file types.
