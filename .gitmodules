@@ -1,16 +1,12 @@
 [submodule "cuj/1048-cirrus-folder-navigation-history/specs/folder-navigation-history/target"]
 	path = cuj/1048-cirrus-folder-navigation-history/specs/folder-navigation-history/target
 	url = git@github.com:autobutler-org/autobutler.git
-	branch = main
 [submodule "cuj/1048-cirrus-folder-deep-link-entry/specs/folder-deep-link-entry/target"]
 	path = cuj/1048-cirrus-folder-deep-link-entry/specs/folder-deep-link-entry/target
 	url = git@github.com:autobutler-org/autobutler.git
-	branch = main
 [submodule "cuj/1048-cirrus-file-deep-link-entry/specs/file-deep-link-entry/target"]
 	path = cuj/1048-cirrus-file-deep-link-entry/specs/file-deep-link-entry/target
 	url = git@github.com:autobutler-org/autobutler.git
-	branch = main
 [submodule "cuj/1048-cirrus-file-open-route-sync/specs/file-open-route-sync/target"]
 	path = cuj/1048-cirrus-file-open-route-sync/specs/file-open-route-sync/target
 	url = git@github.com:autobutler-org/autobutler.git
-	branch = main
