@@ -1,8 +1,8 @@
 # Tracking
 
 - Spec ID: SPEC-002
-- Status: draft
-- Last Updated: 2026-04-30
+- Status: merged
+- Last Updated: 2026-05-01
 
 ## Linked Artifacts
 
@@ -13,16 +13,17 @@
 ## Target Repository
 
 - Repo URL: git@github.com:autobutler-org/autobutler.git
-- Branch: main
-- Current Submodule Commit: bc011096da71cc01c09445e9619e06592afd8de9
+- Branch: feature/1048-folder-deep-link-entry
+- Current Submodule Commit: b7771abc87564bdf6b3dae2311cec9377e78bfd5
+- Landed Main Commit: b7771abc87564bdf6b3dae2311cec9377e78bfd5
 
 ## PR Stack Tracking
 
 - CUJ PR Stack: `cuj/1048-cirrus-folder-deep-link-entry/pr-stack.md`
 - Stack Position: 1
 - Depends On: folder-navigation-history
-- PR URL: pending
-- Review Status: planned
+- PR URL: https://github.com/autobutler-org/autobutler/pull/1076
+- Review Status: merged
 - Merge Sequence: 1
 - Deployment Sequence: 1
 
@@ -38,6 +39,8 @@
 
 1. 2026-04-30 - Bootstrapped the folder-deep-link-entry spec scaffold and pinned the AutoButler target submodule at `bc011096da71cc01c09445e9619e06592afd8de9`.
 2. 2026-04-30 - Replaced template content with startup route-resolution requirements, lightweight-loading behavior, and dedicated not-found handling for CUJ-002.
+3. 2026-04-30 - Implemented startup folder deep-link loading and dedicated folder error states in `feature/1048-folder-deep-link-entry`, then opened draft PR #1076.
+4. 2026-05-01 - PR #1076 merged to `main` at `b7771abc87564bdf6b3dae2311cec9377e78bfd5`, and the target submodule was repinned to that landed commit.
 
 ## Decision Log
 
@@ -46,5 +49,4 @@
 
 ## Next Actions
 
-1. Implement first-load folder route resolution on top of the canonical Cirrus folder route.
-2. Add tests for valid, missing, and unauthorized folder deep-link startup paths.
+1. Target submodule is pinned to the landed `main` commit for PR #1076.

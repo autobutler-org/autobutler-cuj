@@ -1,7 +1,7 @@
 # CUJ PR Stack
 
 - CUJ: 1048-cirrus-folder-deep-link-entry
-- Last Updated: 2026-04-30
+- Last Updated: 2026-05-01
 
 Use this file to track stacked PR order for this CUJ. Keep each spec as a separate PR where possible.
 
@@ -9,7 +9,7 @@ Use this file to track stacked PR order for this CUJ. Keep each spec as a separa
 
 | Order | Spec Slug           | Branch                             | PR            | Depends On                | Review Status | Merge Status | Deploy Order | Notes                                                |
 | ----- | ------------------- | ---------------------------------- | ------------- | ------------------------- | ------------- | ------------ | ------------ | ---------------------------------------------------- |
-| 1     | folder-deep-link-entry | feature/1048-folder-deep-link-entry | pending       | folder-navigation-history | planned       | not-merged   | 1            | Builds on the canonical folder route from CUJ-001. |
+| 1     | folder-deep-link-entry | feature/1048-folder-deep-link-entry | [#1076](https://github.com/autobutler-org/autobutler/pull/1076) | folder-navigation-history | merged        | merged       | 1            | Landed on `main` at `b7771abc87564bdf6b3dae2311cec9377e78bfd5`. |
 
 ## Rules
 

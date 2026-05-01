@@ -1,8 +1,8 @@
 # Tracking
 
 - Spec ID: SPEC-003
-- Status: draft
-- Last Updated: 2026-04-30
+- Status: merged
+- Last Updated: 2026-05-01
 
 ## Linked Artifacts
 
@@ -13,16 +13,17 @@
 ## Target Repository
 
 - Repo URL: git@github.com:autobutler-org/autobutler.git
-- Branch: main
-- Current Submodule Commit: bc011096da71cc01c09445e9619e06592afd8de9
+- Branch: feature/1048-file-deep-link-entry
+- Current Submodule Commit: a0a2a833b01d2e4cc50cd809ebced8815976dbe6
+- Landed Main Commit: a0a2a833b01d2e4cc50cd809ebced8815976dbe6
 
 ## PR Stack Tracking
 
 - CUJ PR Stack: `cuj/1048-cirrus-file-deep-link-entry/pr-stack.md`
 - Stack Position: 1
 - Depends On: folder-deep-link-entry
-- PR URL: pending
-- Review Status: planned
+- PR URL: https://github.com/autobutler-org/autobutler/pull/1077
+- Review Status: merged
 - Merge Sequence: 1
 - Deployment Sequence: 1
 
@@ -38,6 +39,8 @@
 
 1. 2026-04-30 - Bootstrapped the file-deep-link-entry spec scaffold and pinned the AutoButler target submodule at `bc011096da71cc01c09445e9619e06592afd8de9`.
 2. 2026-04-30 - Replaced template content with path-classification, editor-open, and file-error-state requirements for CUJ-003.
+3. 2026-04-30 - Implemented file-vs-folder route resolution and dedicated file deep-link states in `feature/1048-file-deep-link-entry`, then opened draft PR #1077.
+4. 2026-05-01 - PR #1077 merged to `main` at `a0a2a833b01d2e4cc50cd809ebced8815976dbe6`, and the target submodule was repinned to that landed commit.
 
 ## Decision Log
 
@@ -46,5 +49,4 @@
 
 ## Next Actions
 
-1. Implement shared route classification for folder-versus-file deep-link resolution.
-2. Add tests for supported, unsupported, missing, and unauthorized file deep-link cases.
+1. Target submodule is pinned to the landed `main` commit for PR #1077.
